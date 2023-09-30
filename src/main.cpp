@@ -1,7 +1,11 @@
 #include <iostream>
+#include <cmath>
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-#include <cmath>
+#include <soil/SOIL2.h>
+#include "shader.h"
+#include "Camera.h"
+
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);

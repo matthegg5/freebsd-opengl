@@ -40,6 +40,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/saffron/repos/freebsd-opengl/build/lib/glfw-3.3.8/cmake_install.cmake")
+  include("/home/saffron/repos/freebsd-opengl/build/lib/glm/cmake_install.cmake")
 
 endif()
 

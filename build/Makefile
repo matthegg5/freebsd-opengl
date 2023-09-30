@@ -590,6 +590,19 @@ windows/fast:
 	$(MAKE) $(MAKESILENT) -f /home/saffron/repos/freebsd-opengl/build/lib/glfw-3.3.8/tests/CMakeFiles/windows.dir/build.make /home/saffron/repos/freebsd-opengl/build/lib/glfw-3.3.8/tests/CMakeFiles/windows.dir/build
 .PHONY : windows/fast
 
+#=============================================================================
+# Target rules for targets named glm_dummy
+
+# Build rule for target.
+glm_dummy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glm_dummy
+.PHONY : glm_dummy
+
+# fast build rule for target.
+glm_dummy/fast:
+	$(MAKE) $(MAKESILENT) -f /home/saffron/repos/freebsd-opengl/build/lib/glm/CMakeFiles/glm_dummy.dir/build.make /home/saffron/repos/freebsd-opengl/build/lib/glm/CMakeFiles/glm_dummy.dir/build
+.PHONY : glm_dummy/fast
+
 src/glad.o: src/glad.c.o
 .PHONY : src/glad.o
 
@@ -662,6 +675,7 @@ help:
 	@echo "... gears"
 	@echo "... glfw"
 	@echo "... glfwinfo"
+	@echo "... glm_dummy"
 	@echo "... heightmap"
 	@echo "... icon"
 	@echo "... iconify"
