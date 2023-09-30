@@ -1,3 +1,5 @@
 .cache/*
-build/*
+build/CMakeFiles/*
+build/lib/*
+build/Debug/*
 .vscode/
