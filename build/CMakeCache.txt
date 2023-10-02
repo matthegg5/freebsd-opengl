@@ -305,13 +305,13 @@ Fontconfig_LIBRARY:FILEPATH=/usr/local/lib/libfontconfig.so
 GLFW_BINARY_DIR:STATIC=/home/saffron/repos/freebsd-opengl/build/lib/glfw-3.3.8
 
 //Build the GLFW documentation
-GLFW_BUILD_DOCS:BOOL=ON
+GLFW_BUILD_DOCS:BOOL=OFF
 
 //Build the GLFW example programs
-GLFW_BUILD_EXAMPLES:BOOL=ON
+GLFW_BUILD_EXAMPLES:BOOL=OFF
 
 //Build the GLFW test programs
-GLFW_BUILD_TESTS:BOOL=ON
+GLFW_BUILD_TESTS:BOOL=OFF
 
 //Generate installation target
 GLFW_INSTALL:BOOL=ON
@@ -366,6 +366,9 @@ PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/local/bin/pkg-config
 
 //Path to a library.
 RT_LIBRARY:FILEPATH=/usr/lib/librt.so
+
+//Path to a library.
+SOIL2:FILEPATH=SOIL2-NOTFOUND
 
 //Path to a file.
 X11_ICE_INCLUDE_PATH:PATH=/usr/local/include
@@ -788,7 +791,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
