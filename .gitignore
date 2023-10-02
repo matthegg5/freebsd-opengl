@@ -1,5 +1,6 @@
 .cache/*
 build/CMakeFiles/*
 build/lib/*
+build/freebsd_opengl
 build/Debug/*
 .vscode/
