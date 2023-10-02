@@ -10,5 +10,8 @@ add_subdirectory(lib/glm)
 include_directories(/usr/local/include)
 include_directories(include)
 
-target_link_libraries(freebsd_opengl glfw OpenGL::GL)
+target_link_libraries(freebsd_opengl
+ glfw 
+ OpenGL::GL
+ )
 

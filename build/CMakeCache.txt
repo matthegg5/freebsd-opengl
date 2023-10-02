@@ -367,6 +367,9 @@ PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/local/bin/pkg-config
 //Path to a library.
 RT_LIBRARY:FILEPATH=/usr/lib/librt.so
 
+//Path to a library.
+SOIL2:FILEPATH=SOIL2-NOTFOUND
+
 //Path to a file.
 X11_ICE_INCLUDE_PATH:PATH=/usr/local/include
 
